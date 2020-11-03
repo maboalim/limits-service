@@ -67,7 +67,7 @@ public class LimitsConfigurationController {
 	}
 
 	/**
-	 * This method is called by Resilience circle breaker. Resilience pass the
+	 * This method is called by resilience4j circuit breaker. resilience4j pass the
 	 * exception to the method
 	 * 
 	 * @param ex

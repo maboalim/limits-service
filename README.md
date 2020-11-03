@@ -1,4 +1,4 @@
-# limits-service
+resilience4j circuit breaker# limits-service
 This is a test project to test getting the configuration for service in microservices from the cloud configuration server.
 The configuration file include the cloud configuration server URL and application profile.
 This application has also testing for hystrix and resilience circle breaker for fault tolerance.
@@ -69,7 +69,7 @@ Tested inside those projects:
 - Zuul api gateway
 - Spring cloud sleuth to add unique ID to logs
 - Zipkin distributed tracing system using Rabbit MQ [required rabbitMQ and zipkin to be running]
-- Hystrix and resilience circle breaker for fault tolerance.
+- Hystrix and resilience4j circuit breaker for fault tolerance.
 
 
 
